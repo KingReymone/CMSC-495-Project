@@ -1,0 +1,6 @@
+- task: AzureCloudPowerShellDeployment@1
+  inputs:
+    EnableAdvancedStorageOptions: false
+    CsPkg: 
+    slotName: 'Production'
+    AllowUpgrade: true
